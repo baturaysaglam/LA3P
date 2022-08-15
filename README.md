@@ -2,10 +2,10 @@
 PyTorch implementation of the _Loss Adjusted Approximate Actor Prioritized Experience Replay_ algorithm (LA3P). 
 Note that the implementation of the baseline algorithms are heavily based on the following repositories:
 
-- [SAC](https://arxiv.org/abs/1801.01290): Our implementation. Uses the precise hyper-parameter setting provided in the original article.
+- [SAC](https://arxiv.org/abs/1801.01290): Our implementation. Uses the precise hyper-parameter settings provided in the original article.
 - [TD3](https://arxiv.org/abs/1802.09477): The fine-tuned version imported from the [author's Pytorch implementation of the TD3 algorithm](https://github.com/sfujim/TD3). 
 
-The algorithm is tested on [MuJoCo](https://gym.openai.com/envs/#mujoco) and [Box2D](https://gym.openai.com/envs/#box2d) continuous suites.
+The algorithm is tested on [MuJoCo](https://gym.openai.com/envs/#mujoco) and [Box2D](https://gym.openai.com/envs/#box2d) continuous control suites.
 
 ### Results
 Learning curves are found under [./Learning Curves](https://github.com/baturaysaglam/LA3P/tree/main/Learning%20Curves). 
