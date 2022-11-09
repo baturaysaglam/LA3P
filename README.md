@@ -1,5 +1,5 @@
 # Actor Prioritized Experience Replay
-PyTorch implementation of the _Loss Adjusted Approximate Actor Prioritized Experience Replay_ algorithm (LA3P).
+PyTorch implementation of the _Loss Adjusted Approximate Actor Prioritized Experience Replay_ algorithm (LA3P). If you use our code or results, please cite the [paper](https://arxiv.org/abs/2209.00532). 
 Note that the implementation of the baseline algorithms are heavily based on the following repositories:
 
 - [SAC](https://arxiv.org/abs/1801.01290): Our implementation. Uses the precise hyper-parameter settings provided in the original article.
@@ -129,4 +129,20 @@ optional arguments:
                         networks (default: 0.005)
   --lr G                Learning rate (default: 0.0003)
   --hidden_size N       Hidden unit size in neural networks (default: 256)
+```
+
+### Bibtex
+```
+@misc{https://doi.org/10.48550/arxiv.2209.00532,
+  doi = {10.48550/ARXIV.2209.00532},
+  url = {https://arxiv.org/abs/2209.00532},
+  author = {Saglam, Baturay and Mutlu, Furkan B. and Cicek, Dogan C. and Kozat, Suleyman S.},
+  keywords = {Machine Learning (cs.LG), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Actor Prioritized Experience Replay},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+
+}
 ```
