@@ -143,6 +143,4 @@ optional arguments:
   year = {2022},
   copyright = {arXiv.org perpetual, non-exclusive license}
 }
-
-}
 ```
