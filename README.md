@@ -10,9 +10,9 @@ The algorithm is tested on [MuJoCo](https://gym.openai.com/envs/#mujoco) and [Bo
 ### Results
 Learning curves are found under [./Learning Curves](https://github.com/baturaysaglam/LA3P/tree/main/Learning%20Curves). 
 Corresponding learning figures are found under [./Learning Figures](https://github.com/baturaysaglam/LA3P/tree/main/Learning%20Figures). 
-Each learning curve is formatted as NumPy arrays of 1001 evaluations (1001,). 
+Each learning curve is formatted as NumPy arrays of 1001 evaluations (1001,), except for the Ant, HalfCheetah, Humanoid, and Swimmer environments, which are of 2001 evaluations (2001,). 
 Each evaluation corresponds to the average reward from running the policy for 10 episodes without exploration and updates. 
-The randomly initialized policy network produces the first evaluation. Evaluations are performed every 1000 time steps, over 1 million time steps for 10 random seeds.
+The randomly initialized policy network produces the first evaluation. Evaluations are performed every 1000 time steps, over 1 million (2 million for Ant, HalfCheetah, Humanoid, and Swimmer) time steps for 10 random seeds.
 
 ### Computing Infrastructure
 Following computing infrastructure is used to produce the results.
