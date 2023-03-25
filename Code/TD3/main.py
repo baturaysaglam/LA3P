@@ -36,7 +36,7 @@ def evaluate_policy(agent, env_name, seed, eval_episodes=10):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='LA3P with TD3')
+    parser = argparse.ArgumentParser(description='LA3P + Twin Delayed Deep Deterministic Policy Gradient (TD3)')
 
     parser.add_argument("--policy", default="LA3P_TD3", help='Algorithm (default: LA3P_TD3)')
     parser.add_argument("--env", default="LunarLanderContinuous-v2", help='OpenAI Gym environment name')

@@ -56,7 +56,7 @@ def evaluate_policy(agent, env_name, seed, eval_episodes=10):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='LA3P with Soft Actor-Critic')
+    parser = argparse.ArgumentParser(description='LA3P + Soft Actor-Critic (SAC)')
 
     parser.add_argument('--policy', default="LA3P_SAC", help='Algorithm (default: LA3P_SAC)')
     parser.add_argument('--policy_type', default="Gaussian", help='Policy Type: Gaussian | Deterministic (default: Gaussian)')
