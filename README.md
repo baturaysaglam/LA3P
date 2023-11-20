@@ -1,6 +1,6 @@
 # Actor Prioritized Experience Replay
 
-### Proceedings are out!
+### Published!
 If you use our code or results, please cite the paper.
 ```
 @article{Saglam2023,
